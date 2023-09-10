@@ -1,0 +1,51 @@
+.second {
+  padding: 100px 0;
+  &__left{
+    width: calc(50% - 52px);
+    height: 576px;
+    position: relative;
+    &::before{
+      content: url("../components/second/Combined-Shape.png");
+      position: absolute;
+      top: -128px;
+      right: 125px;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 104px;
+    align-items: center;
+  }
+  &__right{
+    width: calc(50% - 52px);
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #E6B939;
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #575445;
+  }
+  &__desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 8px 0 20px;
+    color: #575445;
+  }
+  &__link{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #575445;
+    column-gap: 5px;
+  }
+}

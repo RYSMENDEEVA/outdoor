@@ -1,0 +1,21 @@
+.first{
+  padding: 200px 0 227px;
+  &__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #E6B939;
+  }
+  &__title{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+  }
+  &__desc{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+  }
+}
